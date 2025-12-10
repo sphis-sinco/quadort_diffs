@@ -6,7 +6,7 @@
     "ba"
   ],
   "key": {
-    "a": "#quadort:blocks/tungsten_alt_recipe_deepslate_blocks",
+    "a": "minecraft:cobbled_deepslate",
     "b": "minecraft:string"
   },
   "result": {
