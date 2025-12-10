@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quadort:block/aviation_block_top",
+    "up": "quadort:block/aviation_block_top",
+    "north": "quadort:block/aviation_block",
+    "east": "quadort:block/aviation_block",
+    "south": "quadort:block/aviation_block",
+    "west": "quadort:block/aviation_block",
+    "particle": "quadort:block/aviation_block_top"
+  },
+  "render_type": "solid"
+}

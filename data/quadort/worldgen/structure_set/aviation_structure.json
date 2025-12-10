@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "quadort:aviation_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 320,
+    "separation": 256,
+    "salt": 1307936133
+  }
+}
