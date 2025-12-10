@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": "#quadort:blocks/tungsten_alt_recipe_deepslate_blocks",
+    "b": "minecraft:string"
+  },
+  "result": {
+    "id": "quadort:tungsten_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quadort:tungsten_block",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quadort:tungsten",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 9
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "quadort:chests/alien_loot_table"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "quadort:tungsten_block",
+  "result": {
+    "id": "quadort:smooth_tungsten_block",
+    "count": 1
+  }
+}

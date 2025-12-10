@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "quadort:rough_tungsten_block",
+    "quadort:smooth_tungsten_block",
+    "quadort:tungsten_block"
+  ]
+}

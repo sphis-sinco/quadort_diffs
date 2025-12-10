@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "quadort:block/tungsten_block"
+    }
+  }
+}

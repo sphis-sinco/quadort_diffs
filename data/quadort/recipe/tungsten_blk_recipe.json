@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "quadort:tungsten"
+  },
+  "result": {
+    "id": "quadort:tungsten_block",
+    "count": 1
+  }
+}
